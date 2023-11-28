@@ -15,7 +15,7 @@ The VotingEnsemble, an ensemble model generated through AutomML, stands out as t
 
 Pipeline architecture
 
-![Image Alt Text](Artifacts/Pipeline_Sklearn.png)
+![Image Alt Text](Artifacts/Pipeline_Sklearn.PNG)
 
 
 
