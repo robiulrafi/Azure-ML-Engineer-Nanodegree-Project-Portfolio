@@ -57,8 +57,10 @@ However, it's important to note that while random parameter sampling offers thes
 In this experiment, the following stopping policy is specified:
 
 + policy = BanditPolicy(slack_factor = 0.1, # specifies the allowable slack as a ratio
-                      evaluation_interval=2, # frequency for applying the policy
-                      delay_evaluation=5) # delays the first policy evaluation for a specified number of intervals
+
+  evaluation_interval=2, # frequency for applying the policy
+
+  delay_evaluation=5) # delays the first policy evaluation for a specified number of intervals
 
 The BanditPolicy, employed as an early termination policy within HyperDrive, functions autonomously to halt runs that exhibit poor performance, significantly enhancing computational efficiency. This policy relies on parameters such as slack factor/slack amount and evaluation interval. It dynamically cancels runs wherein the primary metric deviates beyond the specified slack factor/slack amount in comparison to the best-performing run. This proactive approach ensures that only runs showcasing promising performance aligned with the defined metric parameters continue, optimizing computational resources and expediting the model optimization process.
 
