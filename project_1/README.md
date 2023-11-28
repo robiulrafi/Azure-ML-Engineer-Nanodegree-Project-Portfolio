@@ -33,8 +33,10 @@ The architecture diagram as demonstrated below, credited to Udacity's **MLEMA Na
 
 
 **The benefits of the parameter sampling**
-
-The advantages of employing the parameter sampling method, specifically the RandomParameterSampler, for HyperDrive tuning are noteworthy. In our case, the sampler has been configured to optimize parameters for the [Sckit-learn LogisticRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) model, focusing on 'C' (Regularization Strength) and 'max_iter' (Max iterations).
+In this project, the following random parameter sampling approach has been adopted: 
++ ps = RandomParameterSampling({'--C': choice(0.01, 0.1, 0.2, 0.5, 0.7, 1.0), '--max_iter': choice(range(10,110,10))})
+  
+The advantages of employing the parameter sampling method, specifically the RandomParameterSampler, for HyperDrive tuning are noteworthy. In this case, the sampler has been configured to optimize parameters for the [Sckit-learn LogisticRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) model, focusing on 'C' (Regularization Strength) and 'max_iter' (Max iterations).
 
 This sampler brings several benefits to the tuning process:
 
