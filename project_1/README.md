@@ -71,7 +71,7 @@ automl_config = AutoMLConfig(
     training_data=df_train,
     label_column_name='y',
     n_cross_validations=2)
-'''
+```
 
 ## Pipeline comparison
 **Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
