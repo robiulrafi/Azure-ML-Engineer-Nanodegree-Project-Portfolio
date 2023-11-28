@@ -12,6 +12,7 @@ The Bank Marketing dataset, sourced from the [UCI ML](https://archive.ics.uci.ed
 The VotingEnsemble, an ensemble model generated through AutomML, stands out as the top-performing model. It boasts an impressive accuracy rate of **91.49%**. In comparison, the LogicRegression model, supported by HyperDrive in Scikit-learn, achieves an accuracy of **91.08%**. This signifies that the VotingEnsemble model outperforms the LogicRegression model by a margin of **0.41%** in terms of accuracy, showcasing its superiority in predictive capabilities in this scenario.
 
 ## Scikit-learn Pipeline
+
 **Pipeline architecture** 
 
 The pipeline architecture involves several components orchestrated to train a machine-learning model. Here's an overview:
@@ -27,6 +28,7 @@ Azure HyperDrive: The Scikit-learn Logistic Regression model is connected to Azu
 Jupyter Notebook on Compute Instance: The training run is managed and executed through a Jupyter Notebook hosted on a compute instance. This notebook likely coordinates data loading, model training, hyperparameter tuning setup, and monitoring of the training process.
 
 The architecture diagram, credited to Udacity's MLEMA Nanodegree, provides a visual representation of the logical flow of these components, showcasing how they interact and contribute to the model training process.
+
 ![Image Alt Text](Artifacts/Pipeline_Sklearn.png)
 
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
