@@ -12,6 +12,21 @@ The Bank Marketing dataset, sourced from the [UCI ML](https://archive.ics.uci.ed
 The VotingEnsemble, an ensemble model generated through AutomML, stands out as the top-performing model. It boasts an impressive accuracy rate of **91.49%**. In comparison, the LogicRegression model, supported by HyperDrive in Scikit-learn, achieves an accuracy of **91.08%**. This signifies that the VotingEnsemble model outperforms the LogicRegression model by a margin of **0.41%** in terms of accuracy, showcasing its superiority in predictive capabilities in this scenario.
 
 ## Scikit-learn Pipeline
+**Pipeline architecture** 
+
+The pipeline architecture involves several components orchestrated to train a machine-learning model. Here's an overview:
+
+Python Training Script (train.py): This script contains the code responsible for training the model. It likely includes data preprocessing, model fitting, and evaluation steps.
+
+Tabular Dataset from UCI ML Repository: This dataset sourced from the UCI ML Repository serves as the input data for training the machine learning model. It contains the information required for model learning and prediction.
+
+Scikit-learn Logistic Regression Algorithm: This algorithm, provided by Scikit-learn, is utilized for model training. It's a linear classification algorithm used to predict categorical outcomes based on input features.
+
+Azure HyperDrive: The Scikit-learn Logistic Regression model is connected to Azure HyperDrive, which functions as a hyperparameter tuning engine. HyperDrive explores different hyperparameter configurations to optimize the model's performance, enhancing its accuracy or other specified metrics.
+
+Jupyter Notebook on Compute Instance: The training run is managed and executed through a Jupyter Notebook hosted on a compute instance. This notebook likely coordinates data loading, model training, hyperparameter tuning setup, and monitoring of the training process.
+
+The architecture diagram, credited to Udacity's MLEMA Nanodegree, provides a visual representation of the logical flow of these components, showcasing how they interact and contribute to the model training process.
 ![Image Alt Text](Artifacts/Pipeline_Sklearn.png)
 
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
