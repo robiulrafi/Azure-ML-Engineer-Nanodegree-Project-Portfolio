@@ -103,7 +103,7 @@ Moreover, AutoML extends its utility beyond model creation by offering model int
 
 The above figure demonstrates the feature importance of the given classification task. 
 
-The below figures show us the 
+The below figures show us the different performance curves and confusion matrix of the given classification problem via **VotingEnsemble** model. 
 ![Image Alt Text](Artifacts/Capture_5_AML.PNG)
 
 ![Image Alt Text](Artifacts/Capture_7_AML.PNG)
