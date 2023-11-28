@@ -7,7 +7,7 @@ This model is then compared to an Azure AutoML run.
 
 
 ## Summary
-**In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."**
+The Bank Marketing dataset, sourced from the [UCI ML](https://archive.ics.uci.edu/dataset/222/bank+marketing) Repository, contains demographic data and responses (Yes or No) from bank clients to direct phone marketing campaigns promoting term deposit products. Its primary objective involves predicting whether a client will choose to subscribe to a term deposit. This dataset includes various columns depicting client demographics as input variables, with the 'y' output variable representing the binary status of whether the client has opted for a term deposit, denoted as Yes or No. Essentially, this dataset forms the foundation for modeling efforts aimed at forecasting clients' decisions regarding term deposit subscriptions based on their demographic profiles.
 
 **In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
 
