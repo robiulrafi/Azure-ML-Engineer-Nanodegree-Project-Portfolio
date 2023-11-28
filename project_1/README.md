@@ -83,11 +83,18 @@ These configurations were used to define the behavior and parameters for the Aut
 
 ## Pipeline comparison
 
-The Scikit-learn LogicRegression model, empowered by HyperDrive, achieved an impressive top accuracy of 91.08%, as evidenced below:
+The Scikit-learn LogicRegression model, empowered by HyperDrive, achieved an impressive top accuracy of **91.08%**, as evidenced below:
 
 ![Image Alt Text](Artifacts/Capture_4_HD.PNG)
 
 ![Image Alt Text](Artifacts/Capture_5_HD.PNG)
+
+In contrast, the AutoML-driven **VotingEnsemble** model exhibited an exceptional top accuracy of **91.49%**, surpassing the aforementioned result:
+
+![Image Alt Text](Artifacts/Capture_8_AML.PNG)
+
+![Image Alt Text](Artifacts/Capture_2_AML.PNG)
+
 
 **Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
 
