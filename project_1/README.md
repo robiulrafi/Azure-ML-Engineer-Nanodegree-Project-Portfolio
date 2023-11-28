@@ -41,13 +41,13 @@ The advantages of employing the parameter sampling method, specifically the Rand
 
 This sampler brings several benefits to the tuning process:
 
-**Support for Discrete and Continuous Parameters**: The sampler accommodates both discrete and continuous hyperparameters, enabling a wide range of potential values for 'C' and 'max_iter' in the LogisticRegression model.
+**1. Support for Discrete and Continuous Parameters**: The sampler accommodates both discrete and continuous hyperparameters, enabling a wide range of potential values for 'C' and 'max_iter' in the LogisticRegression model.
 
-**Early Termination of Low-Performance Runs**: It allows for early termination of underperforming runs, optimizing computational resources by stopping runs that are not showing promising results based on the chosen metric.
+**2. Early Termination of Low-Performance Runs**: It allows for early termination of underperforming runs, optimizing computational resources by stopping runs that are not showing promising results based on the chosen metric.
 
-**Simplicity and Reduced Bias**: Its straightforward implementation simplifies the parameter search process, reducing bias in hyperparameter selection. This unbiased approach contributes to enhancing the model's accuracy.
+**3. Simplicity and Reduced Bias**: Its straightforward implementation simplifies the parameter search process, reducing bias in hyperparameter selection. This unbiased approach contributes to enhancing the model's accuracy.
 
-**Versatility for Hyperparameter Combinations**: Random parameter sampling explores various hyperparameter combinations, fostering an exploratory learning process that can uncover effective configurations for the model.
+**4. Versatility for Hyperparameter Combinations**: Random parameter sampling explores various hyperparameter combinations, fostering an exploratory learning process that can uncover effective configurations for the model.
 
 However, it's important to note that while random parameter sampling offers these benefits, it may require more execution time due to its exploration of diverse parameter spaces. Overall, its ability to support both discrete and continuous parameters, terminate low-performance runs, and facilitate an unbiased search process makes it a valuable choice for optimizing models via HyperDrive tuning.
 
