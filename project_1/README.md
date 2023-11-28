@@ -82,6 +82,11 @@ automl_config = AutoMLConfig(
 These configurations were used to define the behavior and parameters for the AutoML run. Key settings include the task type (classification), the primary metric for evaluation (accuracy), iteration and timeout settings, early stopping, featurization, and logging specifications. The df_train dataset was employed as the training data, with 'y' as the label column, and 2 cross-validations were performed during the training process. Due to constraints linked to the Udacity Virtual Machine for Azure, this experiment is limited to a duration of 30 minutes before it times out. This constraint dictates the maximum duration allowed for model training within this environment, influencing the experimentation strategy and resource utilization.
 
 ## Pipeline comparison
+
+The Scikit-learn LogicRegression model, empowered by HyperDrive, achieved an impressive top accuracy of 91.08%, as evidenced below:
+
+![Image Alt Text](Artifacts/Capture_4_HDPNG)
+
 **Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
 
 ## Future work
