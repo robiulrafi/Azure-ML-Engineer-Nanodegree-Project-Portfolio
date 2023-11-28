@@ -14,6 +14,8 @@ The VotingEnsemble, an ensemble model generated through AutomML, stands out as t
 ## Scikit-learn Pipeline
 
 **Pipeline architecture** 
+![Image Alt Text](Artifacts/Pipeline_Sklearn.png)
+
 
 The pipeline architecture involves several components orchestrated to train a machine-learning model. Here's an overview:
 
@@ -29,7 +31,7 @@ Jupyter Notebook on Compute Instance: The training run is managed and executed t
 
 The architecture diagram, credited to Udacity's MLEMA Nanodegree, provides a visual representation of the logical flow of these components, showcasing how they interact and contribute to the model training process.
 
-![Image Alt Text](Artifacts/Pipeline_Sklearn.png)
+
 
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
 
