@@ -33,11 +33,6 @@ The architecture diagram as demonstrated below, credited to Udacity's **MLEMA Na
 
 
 
-
-
-
-**Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
-
 **What are the benefits of the parameter sampler you chose?**
 
 **What are the benefits of the early stopping policy you chose?**
