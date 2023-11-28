@@ -13,7 +13,7 @@ The VotingEnsemble, an ensemble model generated through AutomML, stands out as t
 
 ## Scikit-learn Pipeline
 
-**Pipeline architecture** 
+Pipeline architecture
 
 ![Image Alt Text](Artifacts/Pipeline_Sklearn.png)
 
