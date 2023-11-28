@@ -17,7 +17,7 @@ The VotingEnsemble, an ensemble model generated through AutomML, stands out as t
 
 The pipeline architecture involves several components orchestrated to train a machine-learning model. Here's an overview:
 
-1. Python Training Script ([train.py]()): This script contains the code responsible for training the model. It likely includes data preprocessing, model fitting, and evaluation steps.
+1. Python Training Script ([train.py](https://github.com/robiulrafi/AZURE_ML_ND_PORTFOLIO/blob/main/project_1/train.py)): This script contains the code responsible for training the model. It likely includes data preprocessing, model fitting, and evaluation steps.
 
 2. Tabular Dataset from UCI ML Repository: This dataset sourced from the UCI ML Repository serves as the input data for training the machine learning model. It contains the information required for model learning and prediction.
 
