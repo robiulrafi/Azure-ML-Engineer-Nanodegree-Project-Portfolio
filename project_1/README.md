@@ -17,15 +17,15 @@ The VotingEnsemble, an ensemble model generated through AutomML, stands out as t
 
 The pipeline architecture involves several components orchestrated to train a machine-learning model. Here's an overview:
 
-1. Python Training Script ([train.py](https://github.com/robiulrafi/AZURE_ML_ND_PORTFOLIO/blob/main/project_1/train.py)): This script contains the code responsible for training the model. It likely includes data preprocessing, model fitting, and evaluation steps.
+**1. Python Training Script ([train.py](https://github.com/robiulrafi/AZURE_ML_ND_PORTFOLIO/blob/main/project_1/train.py))**: This script contains the code responsible for training the model. It likely includes data preprocessing, model fitting, and evaluation steps.
 
-2. Tabular Dataset from UCI ML Repository: This dataset sourced from the UCI ML Repository serves as the input data for training the machine learning model. It contains the information required for model learning and prediction.
+**2. Tabular Dataset from UCI ML Repository**: This dataset sourced from the UCI ML Repository serves as the input data for training the machine learning model. It contains the information required for model learning and prediction.
 
-3. Scikit-learn Logistic Regression Algorithm: This algorithm, provided by Scikit-learn, is utilized for model training. It's a linear classification algorithm used to predict categorical outcomes based on input features.
+**3. Scikit-learn Logistic Regression Algorithm**: This algorithm, provided by Scikit-learn, is utilized for model training. It's a linear classification algorithm used to predict categorical outcomes based on input features.
 
-4. Azure HyperDrive: The Scikit-learn Logistic Regression model is connected to Azure HyperDrive, which functions as a hyperparameter tuning engine. HyperDrive explores different hyperparameter configurations to optimize the model's performance, enhancing its accuracy or other specified metrics.
+**4. Azure HyperDrive**: The Scikit-learn Logistic Regression model is connected to Azure HyperDrive, which functions as a hyperparameter tuning engine. HyperDrive explores different hyperparameter configurations to optimize the model's performance, enhancing its accuracy or other specified metrics.
 
-5. Jupyter Notebook on Compute Instance: The training run is managed and executed through a Jupyter Notebook hosted on a compute instance. This notebook likely coordinates data loading, model training, hyperparameter tuning setup, and monitoring of the training process.
+**5. Jupyter Notebook on Compute Instance**: The training run is managed and executed through a [Jupyter Notebook](https://github.com/robiulrafi/AZURE_ML_ND_PORTFOLIO/blob/main/project_1/udacity-project.ipynb) hosted on a compute instance. This notebook likely coordinates data loading, model training, hyperparameter tuning setup, and monitoring of the training process.
 
 The architecture diagram as demonstrated below, credited to Udacity's **MLEMA Nanodegree**, provides a visual representation of the logical flow of these components, showcasing how they interact and contribute to the model training process.
 
