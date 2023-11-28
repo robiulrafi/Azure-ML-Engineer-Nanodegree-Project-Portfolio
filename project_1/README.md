@@ -95,8 +95,15 @@ In contrast, the AutoML-driven **VotingEnsemble** model exhibited an exceptional
 
 ![Image Alt Text](Artifacts/Capture_2_AML.PNG)
 
+While the disparity in accuracy appears slight, there exists a notable architectural contrast between the two approaches. While HyperDrive was limited to evaluating Logistic Regression from Sci-KitLearn, AutoML boasted an extensive repertoire of approximately 20 models for evaluation. This vast selection puts HyperDrive at a distinct disadvantage compared to AutoML, as AutoML offers a diverse pool of over 20 models available for selection during experiments.
 
-**Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
+Moreover, AutoML extends its utility beyond model creation by offering model interpretation capabilities. This functionality proves beneficial in comprehending the rationale behind a model's predictions and gaining insight into the significance of individual features for specific tasks. 
+
+
+In addition, the AutoML also detects the class imbalance in the dataset automatically as shown in the evidence from the notebook run below: 
+
+![Image Alt Text](Artifacts/Capture_9_AML.PNG)
+
 
 ## Future work
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
