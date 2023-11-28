@@ -115,7 +115,15 @@ In addition, the AutoML also detects the class imbalance in the dataset automati
 
 
 ## Future work
-**What are some areas of improvement for future experiments? Why might these improvements help the model?**
+
+Potential Areas for Enhancements in Future Experiments:
+
+**1. Leveraging AutoML's Model Interpretability**: Extend the application of AutoML's model interpretability on larger and more intricate datasets. This approach promises accelerated insights into feature engineering, enabling the refinement of complex model accuracy.
+
+**2. Exploration of Hyperparameter Sampling Methods**: Experiment with diverse hyperparameter sampling methods such as Grid sampling or Bayesian sampling. This exploration could encompass the Scikit-learn LogicRegression model or other custom-coded machine learning models. Consider adopting Bayesian Parameter Sampling, employing Markov Chain Monte Carlo methods for probability distribution sampling, as part of future enhancements for HyperDrive.
+
+**3. Refinements in AutoML Settings**: Consider adjusting the experiment timeout in AutoML to facilitate additional model experimentation. While addressing class imbalance is crucial, identifying the most pertinent performance metric for a specific task stands as an additional focal point. Determining the optimal performance metric tailored to the task's requirements could provide further insights and refine the evaluation process.
+
 
 ## Proof of cluster clean up
 **If you did not delete your compute cluster in the code, please complete this section. Otherwise, delete this section.**
