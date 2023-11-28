@@ -32,8 +32,9 @@ The architecture diagram as demonstrated below, credited to Udacity's **MLEMA Na
 ![Image Alt Text](Artifacts/Pipeline_Sklearn.PNG)
 
 
-
-**What are the benefits of the parameter sampler you chose?**
+**The benefits of the parameter sampling**
+In the case of HyperDrive Tuning following parameter sampler has been adopted:
++ ps = RandomParameterSampling({'--C': choice(0.01, 0.1, 0.2, 0.5, 0.7, 1.0),'--max_iter': choice(range(10,110,10))})
 
 **What are the benefits of the early stopping policy you chose?**
 
