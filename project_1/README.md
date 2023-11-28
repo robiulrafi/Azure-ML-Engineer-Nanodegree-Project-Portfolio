@@ -85,7 +85,7 @@ These configurations were used to define the behavior and parameters for the Aut
 
 The Scikit-learn LogicRegression model, empowered by HyperDrive, achieved an impressive top accuracy of 91.08%, as evidenced below:
 
-![Image Alt Text](Artifacts/Capture_4_HDPNG)
+![Image Alt Text](Artifacts/Capture_5_HD.PNG)
 
 **Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
 
