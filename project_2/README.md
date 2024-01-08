@@ -48,6 +48,22 @@ if not found:
 ![Image Alt Text](Artifacts/Data_Registration.PNG)
 
 **AutoML settings and configuration**:  
+```python
+from azureml.pipeline.core import PipelineData, TrainingOutput
+
+ds = ws.get_default_datastore()
+metrics_output_name = 'metrics_output'
+best_model_output_name = 'best_model_output'
+
+metrics_data = PipelineData(name='metrics_data',
+                           datastore=ds,
+                           pipeline_output_name=metrics_output_name,
+                           training_output=TrainingOutput(type='Metrics'))
+model_data = PipelineData(name='model_data',
+                           datastore=ds,
+                           pipeline_output_name=best_model_output_name,
+                           training_output=TrainingOutput(type='Model'))
+```
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
 
 ## Screen Recording
