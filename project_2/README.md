@@ -46,6 +46,8 @@ if not found:
                                    description=description_text)
 ```
 ![Image Alt Text](Artifacts/Data_Registration.PNG)
+
+**AutoML settings and configuration**:  
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
 
 ## Screen Recording
