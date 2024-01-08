@@ -79,10 +79,15 @@ The deployment involves utilizing the Best Model to interact with the HTTP API s
 
 ![Image Alt Text](Artifacts/Application_Insights_true.PNG)
 
+**Enabling the Application Insights**
 
 ![Image Alt Text](Artifacts/Application_Insights_dashboard.PNG)
 
+**Status of the Application Insights Dashboard**
+
 ![Image Alt Text](Artifacts/Log_shots.PNG)
+
+**Enabling and Capturing the logs**
 
 
 *TODO*: Write a short description of the key steps. Remember to include all the screenshots required to demonstrate key steps. 
