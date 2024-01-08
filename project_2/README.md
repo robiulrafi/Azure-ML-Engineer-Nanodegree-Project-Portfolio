@@ -26,7 +26,27 @@ This diagram visually summarizes the workflow of this project.
 The workflow can be decomposed to the following pivotal steps:
 
 **Dataset Registration**: 
-The following code snippet shows how the workflow registers the  [Bank Marketing](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) dataset in the Azure ML studio;  
+The following code snippet shows how the workflow registers the  [Bank Marketing](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) dataset in the Azure ML studio.
+# Try to load the dataset from the Workspace. Otherwise, create it from the file
+# NOTE: update the key to match the dataset name
+```python
+found = False
+key = "BankMarketing Dataset"
+description_text = "Bank Marketing DataSet for Udacity Course 2"
+
+if key in ws.datasets.keys(): 
+        found = True
+        dataset = ws.datasets[key] 
+
+if not found:
+        # Create AML Dataset and register it into Workspace
+        example_data = 'https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv'
+        dataset = Dataset.Tabular.from_delimited_files(example_data)        
+        #Register Dataset in Workspace
+        dataset = dataset.register(workspace=ws,
+                                   name=key,
+                                   description=description_text)
+```
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
 
 ## Screen Recording
