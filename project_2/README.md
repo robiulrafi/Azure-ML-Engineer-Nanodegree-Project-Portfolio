@@ -47,8 +47,8 @@ if not found:
 ```
 ![Image Alt Text](Artifacts/Data_Registration.PNG)
 
-**AutoML settings and configuration**:  
-In this project, following configuration of AutoML has been used:
+**Automated ML Experiment**:  
+In this project, the following configuration of AutoML has been used:
 ```python
 from azureml.pipeline.core import PipelineData, TrainingOutput
 
@@ -65,7 +65,12 @@ model_data = PipelineData(name='model_data',
                            pipeline_output_name=best_model_output_name,
                            training_output=TrainingOutput(type='Model'))
 ```
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
+Once the AutoML steps are executed, the experiment undergoes training and testing using the provided data within the AutoML environment to derive the best model. Below are the accompanying screenshots:
+![Image Alt Text](Artifacts/Job_end_details.PNG)
+
+![Image Alt Text](Artifacts/Best_model_N.PNG)
+
+*TODO*: Write a short description of the key steps. Remember to include all the screenshots required to demonstrate key steps. 
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
