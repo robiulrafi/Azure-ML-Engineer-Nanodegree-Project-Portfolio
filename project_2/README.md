@@ -71,6 +71,7 @@ Once the AutoML steps are executed, the experiment undergoes training and testin
 **Screenshot of job completion** 
 
 ![Image Alt Text](Artifacts/Best_model_N.PNG)
+
 **Screenshot of the Best Model** 
 
 **Deployment of the Best Model** 
