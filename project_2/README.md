@@ -26,7 +26,7 @@ This diagram visually summarizes the workflow of this project.
 The workflow can be decomposed to the following pivotal steps:
 
 **Dataset Registration**: 
-The following code snippet shows how the workflow registers the  [Bank Marketing](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) dataset in the Azure ML studio.
+The following code snippet and screenshot show how the workflow registers the  [Bank Marketing](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) dataset in the Azure ML studio.
 ```python
 found = False
 key = "BankMarketing Dataset"
