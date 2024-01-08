@@ -11,7 +11,7 @@ This diagram visually summarizes the workflow of this project.
 
 **Auto ML Model**: The objective is to leverage AutoML for training and ranking classification models based on AUC-weighted accuracy, aiding in identifying the most effective model for deployment.
 
-**Deploying the Best Model**: This step involves selecting and deploying the top-performing model, establishing an endpoint for interaction to enable its utilization.
+**Deploying the Best Model**: This step involves selecting and deploying the top-performing model, and establishing an endpoint for interaction to enable its utilization.
 
 **Enabling Logging**: The goal here is to activate Application Insights to gather operational health logs from the deployed model's endpoint, enabling ongoing monitoring.
 
@@ -26,6 +26,7 @@ This diagram visually summarizes the workflow of this project.
 The workflow can be decomposed to the following pivotal steps:
 
 **Dataset Registration**: 
+The following code snippet shows how the workflow registers the  [Bank Marketing](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) dataset in the Azure ML studio;  
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
 
 ## Screen Recording
