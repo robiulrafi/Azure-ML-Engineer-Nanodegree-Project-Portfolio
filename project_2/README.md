@@ -23,7 +23,9 @@ This diagram visually summarizes the workflow of this project.
 
 
 ## Key Steps
+The workflow can be decomposed to the following pivotal steps:
 
+**Dataset Registration**: 
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
 
 ## Screen Recording
