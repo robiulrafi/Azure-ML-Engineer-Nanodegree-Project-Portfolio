@@ -74,7 +74,16 @@ Once the AutoML steps are executed, the experiment undergoes training and testin
 
 **Screenshot of the Best Model** 
 
-**Deployment of the Best Model** 
+**Deployment of the Best Model and Enable Logging** 
+The deployment involves utilizing the Best Model to interact with the HTTP API service. This interaction is established by transmitting data through POST requests to the model. Once the Best Model is deployed, the process involves using Application Insights to enable log retrieval. These logs are showcased in the following snapshots:
+
+![Image Alt Text](Artifacts/Application_Insights_true.PNG)
+
+
+![Image Alt Text](Artifacts/Application_Insights_dashboard.PNG)
+
+![Image Alt Text](Artifacts/Log_shots.PNG)
+
 
 *TODO*: Write a short description of the key steps. Remember to include all the screenshots required to demonstrate key steps. 
 
