@@ -1,6 +1,4 @@
 # MLOps: Orchestrating Machine Learning Operations
-
-*TODO:* Write an overview to your project.
 ## Overview
 In this project's context, an AutoML run was executed on the Bank Marketing Dataset. The top-performing model obtained from the AutoML process was deployed as a RESTful API Webservice. Endpoints were utilized to interact with the deployed model in Microsoft Azure Machine Learning Studio. Lastly, pipeline automation was employed to enhance machine learning operations. 
 
