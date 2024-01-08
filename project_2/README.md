@@ -48,6 +48,7 @@ if not found:
 ![Image Alt Text](Artifacts/Data_Registration.PNG)
 
 **AutoML settings and configuration**:  
+In this project, following configuration of AutoML has been used:
 ```python
 from azureml.pipeline.core import PipelineData, TrainingOutput
 
