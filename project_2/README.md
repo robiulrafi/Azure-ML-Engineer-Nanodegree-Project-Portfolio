@@ -97,7 +97,9 @@ During this step, the deployed model was accessed using Swagger. Utilizing a swa
 
 **Swagger instances running for the Documentation of the HTTP API associated with the best model**
 
+**Endpoint Consumption** 
 
+During this step, the endpoint.py script was executed by updating the scoring_uri and the key to align with the service's key and the URI generated post the deployment of the best model.
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
