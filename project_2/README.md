@@ -72,6 +72,9 @@ Once the AutoML steps are executed, the experiment undergoes training and testin
 
 ![Image Alt Text](Artifacts/Best_model_N.PNG)
 **Screenshot of the Best Model** 
+
+**Deployment of the Best Model** 
+
 *TODO*: Write a short description of the key steps. Remember to include all the screenshots required to demonstrate key steps. 
 
 ## Screen Recording
