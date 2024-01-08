@@ -90,11 +90,14 @@ The deployment involves utilizing the Best Model to interact with the HTTP API s
 **Enabling and Capturing the logs**
 
 **Consume model using Swagger**
+
 During this step, the deployed model was accessed using Swagger. Utilizing a swagger-based JSON file provided by Azure for deployed models, interactions were made. The snapshot below demonstrates the engagement with Swagger instances running for documenting the HTTP API associated with the model.
 
 ![Image Alt Text](Artifacts/Swagger_api_data.PNG)
 
 **Swagger instances running for the Documentation of the HTTP API associated with the best model**
+
+
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
