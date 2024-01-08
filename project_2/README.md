@@ -66,10 +66,12 @@ model_data = PipelineData(name='model_data',
                            training_output=TrainingOutput(type='Model'))
 ```
 Once the AutoML steps are executed, the experiment undergoes training and testing using the provided data within the AutoML environment to derive the best model. Below are the accompanying screenshots:
+
 ![Image Alt Text](Artifacts/Job_end_details.PNG)
+**Screenshot of job completion** 
 
 ![Image Alt Text](Artifacts/Best_model_N.PNG)
-
+**Screenshot of the Best Model** 
 *TODO*: Write a short description of the key steps. Remember to include all the screenshots required to demonstrate key steps. 
 
 ## Screen Recording
