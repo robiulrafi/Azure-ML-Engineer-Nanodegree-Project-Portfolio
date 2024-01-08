@@ -27,8 +27,6 @@ The workflow can be decomposed to the following pivotal steps:
 
 **Dataset Registration**: 
 The following code snippet shows how the workflow registers the  [Bank Marketing](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) dataset in the Azure ML studio.
-# Try to load the dataset from the Workspace. Otherwise, create it from the file
-# NOTE: update the key to match the dataset name
 ```python
 found = False
 key = "BankMarketing Dataset"
