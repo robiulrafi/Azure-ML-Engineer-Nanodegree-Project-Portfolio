@@ -22,8 +22,8 @@ This diagram visually summarizes the workflow of this project.
 **Documentation**: This step provides a comprehensive screencast illustrating the ML application's operation and generates a detailed README.md to describe and document the project's essential steps.
 
 
-
 ## Key Steps
+
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
 
 ## Screen Recording
