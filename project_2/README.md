@@ -23,7 +23,7 @@ This diagram visually summarizes the workflow of this project.
 
 
 ## Key Steps
-The workflow can be decomposed to the following pivotal steps:
+The workflow can be decomposed into the following pivotal steps:
 
 **Dataset Registration**: 
 The following code snippet and screenshot show how the workflow registers the  [Bank Marketing](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) dataset in the Azure ML studio.
@@ -89,8 +89,12 @@ The deployment involves utilizing the Best Model to interact with the HTTP API s
 
 **Enabling and Capturing the logs**
 
+**Consume model using Swagger**
+During this step, the deployed model was accessed using Swagger. Utilizing a swagger-based JSON file provided by Azure for deployed models, interactions were made. The snapshot below demonstrates the engagement with Swagger instances running for documenting the HTTP API associated with the model.
 
-*TODO*: Write a short description of the key steps. Remember to include all the screenshots required to demonstrate key steps. 
+![Image Alt Text](Artifacts/Swagger_api_data.PNG)
+
+**Swagger instances running for the Documentation of the HTTP API associated with the best model**
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
