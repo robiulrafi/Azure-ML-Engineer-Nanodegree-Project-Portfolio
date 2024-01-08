@@ -7,7 +7,21 @@ This diagram visually summarizes the workflow of this project.
 ![Image Alt Text](Artifacts/workflow.PNG)
 **Image Courtesy: Nanodegree course for machine learning operation using MS Azure**
 
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+**Authentication**: Intended to create a Service Principal for workspace access but couldn't be executed due to restricted privileges in the Udacity-provisioned AML lab environment.
+
+**Auto ML Model**: Used AutoML to train and rank classification models based on AUC-weighted accuracy, aiding in identifying the most effective model for deployment.
+
+**Deploying the Best Model**: Selected and deployed the top-performing model to create an endpoint for interacting with this model, enabling its utilization.
+
+**Enabling Logging**: Activated Application Insights to gather operational health logs from the deployed model's endpoint, facilitating ongoing monitoring.
+
+**Consuming Model Endpoints**: Ran a script to interact with the deployed model's endpoint, testing its functionality and saving data for benchmarking purposes.
+
+**Pipeline Creation and Publishing**: Established an automated pipeline endpoint for AutoML training, enhancing the efficiency of model training processes.
+
+**Documentation**: Produced a detailed screencast illustrating the ML application's operation and created a comprehensive README.md to describe and document the project's essential steps.
+
+
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
