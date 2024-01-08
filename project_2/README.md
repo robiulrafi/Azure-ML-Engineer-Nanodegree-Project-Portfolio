@@ -6,6 +6,7 @@ In this project's context, an AutoML run was executed on the [Bank Marketing](ht
 This diagram visually summarizes the workflow of this project.
 ![Image Alt Text](Artifacts/workflow.PNG)
 
+**Image Courtesy: Nanodegree course for machine learning operation using MS Azure**
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
 
 ## Key Steps
