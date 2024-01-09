@@ -139,11 +139,11 @@ pipeline_run.wait_for_completion()
 ```
 ![Image Alt Text](Artifacts/pipeline_Status.PNG)
 
-**Pipeline run status**
+**Screenshot of Pipeline run status**
 
 ![Image Alt Text](Artifacts/Pipelines_jobs.PNG)
 
-**Pipeline run completion**
+**Screenshot of Pipeline run completion**
 
 **Publish and consumption of the Pipeline**
 
