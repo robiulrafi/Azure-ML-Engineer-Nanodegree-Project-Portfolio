@@ -165,6 +165,12 @@ After creating the pipelines are published in the AzureML studio. The below scre
 [Video Link](https://www.dropbox.com/scl/fi/d50u78sq2cwjutnj9ttmc/Project_-Operationalizing-Machine-Learning.mp4?rlkey=y7rwyrgghj4p973zxzv8fml71&dl=0)
 
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+## Suggestions for future improvements
+
+**1.** Broaden the exploration of AutoML model interpretability, extending its application to encompass more intricate and expansive datasets. This extension aims to not only accelerate the process but also extract deeper insights crucial for refining feature engineering practices. These refined practices, in turn, play a pivotal role in enhancing the accuracy of complex models, thereby enriching the overall predictive capacity.
+
+**2.** Integrate a comprehensive CI/CD pipeline that seamlessly interacts with the Published Pipeline, facilitating the initiation of AutoML training runs at predefined intervals or as needed on an ad-hoc basis. This incorporation of continuous integration and continuous deployment streamlines the entire training process, promoting efficiency and ensuring the models stay updated with the latest data trends and patterns.
+
+**3.*** Furthermore, leveraging the knowledge and proficiency gained from these implementations, consider expanding the scope to create and deploy various other pipeline types. Embrace the creation and publication of pipelines dedicated to Data Preparation, adept Validation procedures, efficient Deployment strategies, and amalgamated tasks that synergize these crucial aspects. This diversified approach not only enhances the overall workflow but also fortifies the project's adaptability to diverse scenarios and requirements, establishing a robust foundation for comprehensive model development and deployment.
+
 
