@@ -5,6 +5,7 @@ In this project's context, an AutoML run was executed on the [Bank Marketing](ht
 ## Architectural Diagram
 This diagram visually summarizes the workflow of this project.
 ![Image Alt Text](Artifacts/workflow.PNG)
+
 **Image Courtesy: Nanodegree course for machine learning operation using MS Azure**
 
 **Authentication**: This step aims to create a Service Principal for workspace access. However, due to restricted privileges in the Udacity-provisioned AML lab environment, it couldn't be executed in this project.
@@ -125,8 +126,18 @@ pipeline = Pipeline(
     steps=[automl_step])
 pipeline_run = experiment.submit(pipeline)
 ```
+![Image Alt Text](Artifacts/Pipelines_created.PNG)
+
 **Pipeline Monitoring** 
 
+After creating the pipeline following code snippet is used for monitoring the pipeline status:
+
+```python
+from azureml.widgets import RunDetails
+RunDetails(pipeline_run).show()
+pipeline_run.wait_for_completion()
+```
+![Image Alt Text](Artifacts/Pipelines_jobs.PNG)
 
 
 ## Screen Recording
