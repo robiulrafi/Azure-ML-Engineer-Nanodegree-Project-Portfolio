@@ -6,7 +6,7 @@ In this project's context, an AutoML run was executed on the [Bank Marketing](ht
 This diagram visually summarizes the workflow of this project.
 ![Image Alt Text](Artifacts/workflow.PNG)
 
-**Image Courtesy: Nanodegree course for machine learning operation using MS Azure**
+**Image Courtesy: [Nanodegree course for machine learning operation using MS Azure] (https://www.udacity.com/course/machine-learning-engineer-for-microsoft-azure-nanodegree--nd00333?coupon=BLACKFRIDAY50&utm_source=gsem_brand&utm_source=gsem_brand&utm_medium=ads_r&utm_medium=ads_r&utm_campaign=19692269004_c_individuals&utm_campaign=19692269004_c_individuals&utm_term=151372117852&utm_term=151372117852&utm_keyword=udacity%20azure%20machine%20learning_e&utm_keyword=udacity%20azure%20machine%20learning_e&gad_source=1&gclid=EAIaIQobChMI5evHq_PQgwMVsptaBR2tgAJLEAAYASAAEgLGg_D_BwE)**
 
 **1. Authentication**: This step aims to create a Service Principal for workspace access. However, due to restricted privileges in the Udacity-provisioned AML lab environment, it couldn't be executed in this project.
 
