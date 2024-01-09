@@ -50,6 +50,7 @@ if not found:
 ![Image Alt Text](Artifacts/Data_Registration.PNG)
 
 **2. Automated ML Experiment**  
+
 In this project, the following configuration of AutoML has been used:
 ```python
 from azureml.pipeline.core import PipelineData, TrainingOutput
