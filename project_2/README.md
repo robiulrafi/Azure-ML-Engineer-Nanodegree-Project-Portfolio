@@ -161,8 +161,8 @@ After creating the pipelines are published in the AzureML studio. The below scre
 
 ## Screen Recording
 
-[Video Name](https://www.dropbox.com/scl/fi/d50u78sq2cwjutnj9ttmc/Project_-Operationalizing-Machine-Learning.mp4?rlkey=y7rwyrgghj4p973zxzv8fml71&dl=0)
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+[Screen Recording](https://www.dropbox.com/scl/fi/d50u78sq2cwjutnj9ttmc/Project_-Operationalizing-Machine-Learning.mp4?rlkey=y7rwyrgghj4p973zxzv8fml71&dl=0)
+
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
