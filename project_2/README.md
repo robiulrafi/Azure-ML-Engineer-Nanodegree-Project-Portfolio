@@ -111,10 +111,12 @@ In this step, the deployed model was load-tested with Apache Benchmark (ab) runs
 
 ![Image Alt Text](Artifacts/benchmaek_snapshots.PNG)
 
-**Screenshot of outcome of the benchmarking process**
+**Screenshot of the outcome of the benchmarking process**
 
 
+**Create, Publish, and Consume a Pipeline** 
 
+In this step, the pipeline has been created, published, and consumed.  
 
 
 
