@@ -115,7 +115,7 @@ In this step, the deployed model was load-tested with Apache Benchmark (ab) runs
 **Screenshot of the outcome of the benchmarking process**
 
 
-**Pipeline creation** 
+**Pipeline creation and monitoring** 
 
 This code excerpt demonstrates how the training pipeline was created and ran :
 ```python
@@ -126,9 +126,6 @@ pipeline = Pipeline(
     steps=[automl_step])
 pipeline_run = experiment.submit(pipeline)
 ```
-![Image Alt Text](Artifacts/Pipelines_created.PNG)
-
-**Pipeline Monitoring** 
 
 After creating the pipeline following code snippet is used for monitoring the pipeline status:
 
