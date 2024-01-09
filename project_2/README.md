@@ -111,7 +111,9 @@ In this step, the deployed model was load-tested with Apache Benchmark (ab) runs
 
 ![Image Alt Text](Artifacts/benchmaek_snapshots.PNG)
 
-**Screenshot of executing endpoint.py**
+**Screenshot of outcome of the benchmarking process**
+
+
 
 
 
