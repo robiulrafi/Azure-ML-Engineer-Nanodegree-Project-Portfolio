@@ -101,6 +101,10 @@ During this step, the deployed model was accessed using Swagger. Utilizing a swa
 
 During this step, the endpoint.py script was executed by updating the scoring_uri and the key to align with the service's key and the URI generated post the deployment of the best model.
 
+![Image Alt Text](Artifacts/Endpoint.PNG)
+
+**Screenshot of executing endpoint.py**
+
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
