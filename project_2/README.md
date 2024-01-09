@@ -105,6 +105,18 @@ During this step, the endpoint.py script was executed by updating the scoring_ur
 
 **Screenshot of executing endpoint.py**
 
+**Benchmarking**
+
+In this step, the deployed model was load-tested with Apache Benchmark (ab) runs against the HTTP API using the authentication keys to retrieve performance results. Following screenshot captures such benchmarking process
+
+![Image Alt Text](Artifacts/benchmaek_snapshots.PNG)
+
+**Screenshot of executing endpoint.py**
+
+
+
+
+
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
