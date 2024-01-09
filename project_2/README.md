@@ -8,25 +8,25 @@ This diagram visually summarizes the workflow of this project.
 
 **Image Courtesy: Nanodegree course for machine learning operation using MS Azure**
 
-**Authentication**: This step aims to create a Service Principal for workspace access. However, due to restricted privileges in the Udacity-provisioned AML lab environment, it couldn't be executed in this project.
+**1. Authentication**: This step aims to create a Service Principal for workspace access. However, due to restricted privileges in the Udacity-provisioned AML lab environment, it couldn't be executed in this project.
 
-**Auto ML Model**: The objective is to leverage AutoML for training and ranking classification models based on AUC-weighted accuracy, aiding in identifying the most effective model for deployment.
+**2. Auto ML Model**: The objective is to leverage AutoML for training and ranking classification models based on AUC-weighted accuracy, aiding in identifying the most effective model for deployment.
 
-**Deploying the Best Model**: This step involves selecting and deploying the top-performing model and establishing an endpoint for interaction to enable its utilization.
+**3. Deploying the Best Model**: This step involves selecting and deploying the top-performing model and establishing an endpoint for interaction to enable its utilization.
 
-**Enabling Logging**: The goal here is to activate Application Insights to gather operational health logs from the deployed model's endpoint, enabling ongoing monitoring.
+**4. Enabling Logging**: The goal here is to activate Application Insights to gather operational health logs from the deployed model's endpoint, enabling ongoing monitoring.
 
-**Consuming Model Endpoints**: This step executes a script to interact with the deployed model's endpoint, testing its functionality, and saving data for benchmarking purposes.
+**5. Consuming Model Endpoints**: This step executes a script to interact with the deployed model's endpoint, testing its functionality, and saving data for benchmarking purposes.
 
-**Pipeline Creation and Publishing**: This step creates an automated pipeline endpoint for AutoML training, streamlining and improving the efficiency of model training processes.
+**6. Pipeline Creation and Publishing**: This step creates an automated pipeline endpoint for AutoML training, streamlining and improving the efficiency of model training processes.
 
-**Documentation**: This step provides a comprehensive screencast illustrating the ML application's operation and generates a detailed README.md to describe and document the project's essential steps.
+**7. Documentation**: This step provides a comprehensive screencast illustrating the ML application's operation and generates a detailed README.md to describe and document the project's essential steps.
 
 
 ## Key Steps
 The workflow can be decomposed into the following pivotal steps:
 
-**Dataset Registration**: 
+**1. Dataset Registration**: 
 The following code snippet and screenshot show how the workflow registers the  [Bank Marketing](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) dataset in the Azure ML studio.
 ```python
 found = False
@@ -48,7 +48,7 @@ if not found:
 ```
 ![Image Alt Text](Artifacts/Data_Registration.PNG)
 
-**Automated ML Experiment**:  
+**2. Automated ML Experiment**  
 In this project, the following configuration of AutoML has been used:
 ```python
 from azureml.pipeline.core import PipelineData, TrainingOutput
@@ -75,7 +75,8 @@ Once the AutoML steps are executed, the experiment undergoes training and testin
 
 **Screenshot of the Best Model** 
 
-**Deployment of the Best Model and Enable Logging** 
+**3. Deployment of the Best Model and Enable Logging** 
+
 The deployment involves utilizing the Best Model to interact with the HTTP API service. This interaction is established by transmitting data through POST requests to the model. Once the Best Model is deployed, the process involves using Application Insights to enable log retrieval. These logs are showcased in the following snapshots:
 
 ![Image Alt Text](Artifacts/Application_Insights_true.PNG)
@@ -90,7 +91,7 @@ The deployment involves utilizing the Best Model to interact with the HTTP API s
 
 **Enabling and Capturing the logs**
 
-**Consume model using Swagger**
+**4. Consume model using Swagger**
 
 During this step, the deployed model was accessed using Swagger. Utilizing a swagger-based JSON file provided by Azure for deployed models, interactions were made. The snapshot below demonstrates the engagement with Swagger instances running for documenting the HTTP API associated with the model.
 
@@ -106,7 +107,7 @@ During this step, the endpoint.py script was executed by updating the scoring_ur
 
 **Screenshot of executing endpoint.py**
 
-**Benchmarking**
+**5. Benchmarking**
 
 In this step, the deployed model was load-tested with Apache Benchmark (ab) runs against the HTTP API using the authentication keys to retrieve performance results. Following screenshot captures such benchmarking process
 
@@ -115,7 +116,7 @@ In this step, the deployed model was load-tested with Apache Benchmark (ab) runs
 **Screenshot of the outcome of the benchmarking process**
 
 
-**Pipeline creation and monitoring** 
+**6. Pipeline creation and monitoring** 
 
 This code excerpt demonstrates how the training pipeline was created and ran :
 ```python
@@ -142,7 +143,7 @@ pipeline_run.wait_for_completion()
 
 **Screenshot of Pipeline run completion**
 
-**Publish and consumption of the Pipeline**
+**7. Publish and consumption of the Pipeline**
 
 After creating the pipelines are published in the AzureML studio. The below screenshots verify that:
 
@@ -161,7 +162,7 @@ After creating the pipelines are published in the AzureML studio. The below scre
 
 ## Screen Recording
 
-[Screen Recording](https://www.dropbox.com/scl/fi/d50u78sq2cwjutnj9ttmc/Project_-Operationalizing-Machine-Learning.mp4?rlkey=y7rwyrgghj4p973zxzv8fml71&dl=0)
+[Video Link](https://www.dropbox.com/scl/fi/d50u78sq2cwjutnj9ttmc/Project_-Operationalizing-Machine-Learning.mp4?rlkey=y7rwyrgghj4p973zxzv8fml71&dl=0)
 
 
 ## Standout Suggestions
