@@ -114,10 +114,18 @@ In this step, the deployed model was load-tested with Apache Benchmark (ab) runs
 **Screenshot of the outcome of the benchmarking process**
 
 
-**Create, Publish, and Consume a Pipeline** 
+**Pipeline creation** 
 
-In this step, the pipeline has been created, published, and consumed.  
-
+This code excerpt demonstrates how the training pipeline was created and ran :
+```python
+from azureml.pipeline.core import Pipeline
+pipeline = Pipeline(
+    description="pipeline_with_automlstep",
+    workspace=ws,    
+    steps=[automl_step])
+pipeline_run = experiment.submit(pipeline)
+```
+**Pipeline Monitoring** 
 
 
 
