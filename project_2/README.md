@@ -150,10 +150,13 @@ After creating the pipelines are published in the AzureML studio. The below scre
 
 **Screenshot of endpoint pipeline before running**
 
- ![Image Alt Text](Artifacts/Job_details_end.PNG)
+ ![Image Alt Text](Artifacts/Job_end_details.PNG)
 
 **Screenshot of the pipeline before publishing**
 
+ ![Image Alt Text](Artifacts/pipeline_Detail_V.PNG)
+
+**Screenshot of the pipeline after publishing and consuming**
 
 
 
