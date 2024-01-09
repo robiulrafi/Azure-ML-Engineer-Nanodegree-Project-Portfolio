@@ -143,7 +143,18 @@ pipeline_run.wait_for_completion()
 **Screenshot of Pipeline run completion**
 
 **Publish and consumption of the Pipeline**
+
 After creating the pipelines are published in the AzureML studio. The below screenshots verify that:
+
+ ![Image Alt Text](Artifacts/Pipelines_created.PNG)
+
+**Screenshot of endpoint pipeline before running**
+
+ ![Image Alt Text](Artifacts/Job_details_end.PNG)
+
+**Screenshot of the pipeline before publishing**
+
+
 
 
 
