@@ -11,7 +11,7 @@ This repository here encompasses projects from the **MS-AZURE MACHINE LEARNING N
 
 The architecture diagram as demonstrated below provides a visual representation of the logical process flow of this project. credited to Udacity's **MLEMA Nanodegree**.
 
-![Image Alt Text](Azure-ML-Engineer-Nanodegree-Project-Portfolio/Optimizing an ML Pipeline in Azure/Artifacts/Pipeline_Sklearn.PNG)
+![Image Alt Text](Optimizing an ML Pipeline in Azure/Artifacts/Pipeline_Sklearn.PNG)
 
 * Bullet list
 * The Bank Marketing dataset from [UCI ML](https://archive.ics.uci.edu/dataset/222/bank+marketing) Repository was used to train the two models.
