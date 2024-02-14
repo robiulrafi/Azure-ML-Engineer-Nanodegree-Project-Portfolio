@@ -28,7 +28,7 @@ The architecture diagram as demonstrated below provides a visual representation 
 
 This diagram visually summarizes the workflow of this project.
 
-![Image Alt Text](MLOps: Orchestrating Machine Learning Operations/Artifacts/workflow.PNG)
+![Image Alt Text](MLOps%3A%20Orchestrating%20Machine%20Learning%20Operations/Artifacts/workflow.PNG)
 
 
 
