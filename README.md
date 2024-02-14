@@ -9,6 +9,10 @@ This repository here encompasses projects from the **MS-AZURE MACHINE LEARNING N
 2. Utilization of a custom-coded model—a standard Scikit-learn Logistic Regression—where the hyperparameters are optimized using HyperDrive.
 3. Application of AutoML to construct and refine a model on the same dataset, enabling a comparative analysis of results from both methodologies.
 
+The architecture diagram as demonstrated below provides a visual representation of the logical process flow of this project. credited to Udacity's **MLEMA Nanodegree**.
+
+![Image Alt Text](./Azure-ML-Engineer-Nanodegree-Project-Portfolio/Optimizing an ML Pipeline in Azure/Artifacts/Pipeline_Sklearn.PNG)
+
 * Bullet list
 * The Bank Marketing dataset from UCI ML Repository was used to train the two models.
 * Project specification: refer to this rubric
