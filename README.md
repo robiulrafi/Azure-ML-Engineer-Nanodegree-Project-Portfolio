@@ -19,6 +19,17 @@ The architecture diagram as demonstrated below provides a visual representation 
 * Artifact: [udacity-project.ipynb](https://github.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/main/Optimizing%20an%20ML%20Pipeline%20in%20Azure/udacity-project.ipynb), [train.py](https://github.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/main/Optimizing%20an%20ML%20Pipeline%20in%20Azure/train.py), [README.md](https://github.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/main/Optimizing%20an%20ML%20Pipeline%20in%20Azure/README.md)
 
 
+[**MLOps: Orchestrating Machine Learning Operations**](https://github.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/tree/main/MLOps%3A%20Orchestrating%20Machine%20Learning%20Operations)
+
+1. The [Bank Marketing dataset](https://archive.ics.uci.edu/dataset/222/bank+marketing) is utilized in this project.
+2. Azure is employed to configure a cloud-based machine learning production model, deploy it, and consume it.
+3. A pipeline is created, published, and consumed throughout the project.
+4. At the conclusion, all work is demonstrated by creating a README file and a screencast video.
+
+This diagram visually summarizes the workflow of this project.
+
+![Image Alt Text](MLOps: Orchestrating Machine Learning Operations/Artifacts/workflow.PNG)
+
 
 
     
