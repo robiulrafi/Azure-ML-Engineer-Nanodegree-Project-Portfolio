@@ -1,11 +1,13 @@
 This repository here encompasses projects from the **MS-AZURE MACHINE LEARNING NANODEGREE PROGRAM** offered by UDACITY. 
 
 
-# Project Deliverables Summary
+# Summary of Project Deliverables
 
 [**Optimizing an ML Pipeline in Azure**](https://github.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/tree/main/Optimizing%20an%20ML%20Pipeline%20in%20Azure)
 
-In the Optimizing an ML Pipeline in Azure project, an ML pipeline is being created and optimized. A custom-coded model—a standard Scikit-learn Logistic Regression—is provided, with its hyperparameters being optimized using HyperDrive. Additionally, AutoML is being used to build and optimize a model on the same dataset, allowing for a comparison of the results of the two methods.
+1. Completion of an ML pipeline creation and optimization task.
+2. Utilization of a custom-coded model—a standard Scikit-learn Logistic Regression—where the hyperparameters are optimized using HyperDrive.
+3. Application of AutoML to construct and refine a model on the same dataset, enabling a comparative analysis of results from both methodologies.
 
 
     
