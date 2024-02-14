@@ -16,7 +16,7 @@ The architecture diagram as demonstrated below provides a visual representation 
 * The Bank Marketing dataset from [UCI ML](https://archive.ics.uci.edu/dataset/222/bank+marketing) Repository was used to train the two models.
 * Project code and artifact repository: click [here](https://github.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/tree/main/Optimizing%20an%20ML%20Pipeline%20in%20Azure)
 * Tool: Azure ML Studio, Azure Python SDK, Jupyter Notebook
-* Artifact: [udacity-project.ipynb](https://github.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/main/Optimizing%20an%20ML%20Pipeline%20in%20Azure/udacity-project.ipynb), [train.py](https://github.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/main/Optimizing%20an%20ML%20Pipeline%20in%20Azure/train.py), [README.md](https://github.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/main/Optimizing%20an%20ML%20Pipeline%20in%20Azure/README.md)
+* Artifact: [udacity-project.ipynb](https://github.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/main/Optimizing%20an%20ML%20Pipeline%20in%20Azure/udacity-project.ipynb), train.py, README.md
 
 
 [**MLOps: Orchestrating Machine Learning Operations**](https://github.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/tree/main/MLOps%3A%20Orchestrating%20Machine%20Learning%20Operations)
@@ -29,6 +29,14 @@ The architecture diagram as demonstrated below provides a visual representation 
 This diagram visually summarizes the workflow of this project.
 
 ![Image Alt Text](MLOps%3A%20Orchestrating%20Machine%20Learning%20Operations/Artifacts/workflow.PNG)
+
+* Project code and artifact repository: click [here](https://github.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/tree/main/MLOps%3A%20Orchestrating%20Machine%20Learning%20Operation)
+
+* Tool: Azure ML Studio, Azure Python SDK, Jupyter Notebook, Apache Benchmarking tool, Swagger
+
+* Artifact: [aml-pipelines-with-automated-machine-learning-step.ipynb](https://github.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/main/MLOps%3A%20Orchestrating%20Machine%20Learning%20Operations/starter_files/aml-pipelines-with-automated-machine-learning-step.ipynb), train.py, README.md, screencast of the working ML model
+
+
 
 
 
