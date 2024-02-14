@@ -38,14 +38,17 @@ This diagram visually summarizes the workflow of this project.
 
 [**Capstone Project: Predicting Patient Survival in Heart Failure with Azure Machine Learning**](https://github.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/tree/main/Capstone%20Project%3A%20Predicting%20Patient%20Survival%20in%20Heart%20Failure%20with%20Azure%20Machine%20Learning)
 
-- This project provides the opportunity to apply the knowledge acquired from the Nanodegree to solve an interesting problem.
+- This project provides the opportunity to apply the knowledge acquired from the Nanodegree to solve an interesting problem to predict patient survial in heart failure cases.
 - Two models are created: one using Automated ML (AutoML) and one customized model with tuned hyperparameters using HyperDrive.
 - The performance of both models is compared, and the best performing model is deployed.
-- The project demonstrates the ability to utilize an external dataset in the workspace, train models using various tools within the AzureML framework, and deploy the model as a web service.
+- The project demonstrates the ability to utilize an [external dataset](https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data) in the workspace, train models using various tools within the AzureML framework, and deploy the model as a web service.
 
 Below is a visualization illustrating the rough overview of the operations conducted in this project:
 ![Image Alt Text](Capstone%20Project%3A%20Predicting%20Patient%20Survival%20in%20Heart%20Failure%20with%20Azure%20Machine%20Learning/Artifacts/Process_Flow.PNG)
 
+* Project code and artifact repository: click [here](https://github.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/tree/main/Capstone%20Project%3A%20Predicting%20Patient%20Survival%20in%20Heart%20Failure%20with%20Azure%20Machine%20Learning)
 
+* Tool: Azure ML Studio, Azure Python SDK, Jupyter Notebook
 
+* Artifact: [automl.ipynb](https://github.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/main/Capstone%20Project%3A%20Predicting%20Patient%20Survival%20in%20Heart%20Failure%20with%20Azure%20Machine%20Learning/automl%20.ipynb), [hyperparameter_tuning.ipynb](https://github.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/blob/main/Capstone%20Project%3A%20Predicting%20Patient%20Survival%20in%20Heart%20Failure%20with%20Azure%20Machine%20Learning/hyperparameter_tuning.ipynb), train.py, conda_env.yml, score.py, screencast of the working ML model
     
