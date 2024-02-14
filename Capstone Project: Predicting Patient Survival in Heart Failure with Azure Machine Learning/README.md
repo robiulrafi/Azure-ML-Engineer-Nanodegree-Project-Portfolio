@@ -27,7 +27,7 @@ All instructions for running the cells are detailed within the notebooks.
 ## Dataset
 
 ### Overview
-The [Heart Failure Prediction dataset](https://raw.githubusercontent.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/main/Optimizing an ML Pipeline in Azure/heart_failure_clinical_records_dataset.csv) serves to evaluate the severity of heart failure in patients. It comprises medical records from 299 heart failure patients gathered at the Faisalabad Institute of Cardiology and the Allied Hospital in Faisalabad (Punjab, Pakistan) between April and December 2015. The patients, aged 40 years and older, consist of 105 women and 194 men who have all previously experienced heart failure.
+The [Heart Failure Prediction dataset](https://raw.githubusercontent.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/main/Optimizing%20an%20ML%20Pipeline%20in%20Azure/heart_failure_clinical_records_dataset.csv) serves to evaluate the severity of heart failure in patients. It comprises medical records from 299 heart failure patients gathered at the Faisalabad Institute of Cardiology and the Allied Hospital in Faisalabad (Punjab, Pakistan) between April and December 2015. The patients, aged 40 years and older, consist of 105 women and 194 men who have all previously experienced heart failure.
 
 This dataset includes 13 features, documenting clinical, physiological, and lifestyle details, and serves as the training data for predicting heart failure risks. Notably, the dataset exhibits an imbalance, with 203 patients surviving (death event = 0) and 96 patients deceased (death event = 1).
 Further details about this dataset can be found in the [original publication](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5)_ by the dataset curators.
@@ -56,7 +56,7 @@ The target variable, DEATH_EVENT, is binary, with 1 indicating deceased patients
 
 The data for this project is accessed through the following steps in our workspace:
 
-The data is uploaded to this [GitHub repository](https://raw.githubusercontent.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/main/Optimizing an ML Pipeline in Azure/heart_failure_clinical_records_dataset.csv).
+The data is uploaded to this [GitHub repository](https://raw.githubusercontent.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/main/Optimizing%20an%20ML%20Pipeline%20in%20Azure/heart_failure_clinical_records_dataset.csv).
 
 The dataset is registered using either the AzureML SDK or AzureML Studio, utilizing a web URL or local files.
 
