@@ -5,7 +5,7 @@ In this project, the usage of the Azure ML Python SDK is demonstrated for traini
 The predictive model trained and deployed in this project has the potential to impact clinical practice, as it becomes a new supporting tool for physicians in assessing the increased risk of mortality among heart failure patients.
 
 Below is a visualization illustrating the rough overview of the operations conducted in this project:
-![Image Alt Text](Artifacts_II/Process_Flow.PNG)
+![Image Alt Text](Artifacts/Process_Flow.PNG)
 
 
 ## Project Set Up and Installation
@@ -27,7 +27,7 @@ All instructions for running the cells are detailed within the notebooks.
 ## Dataset
 
 ### Overview
-The [Heart Failure Prediction dataset](https://raw.githubusercontent.com/robiulrafi/AZURE_ML_ND_PORTFOLIO/main/project_1/heart_failure_clinical_records_dataset.csv) serves to evaluate the severity of heart failure in patients. It comprises medical records from 299 heart failure patients gathered at the Faisalabad Institute of Cardiology and the Allied Hospital in Faisalabad (Punjab, Pakistan) between April and December 2015. The patients, aged 40 years and older, consist of 105 women and 194 men who have all previously experienced heart failure.
+The [Heart Failure Prediction dataset](https://raw.githubusercontent.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/main/Optimizing an ML Pipeline in Azure/heart_failure_clinical_records_dataset.csv) serves to evaluate the severity of heart failure in patients. It comprises medical records from 299 heart failure patients gathered at the Faisalabad Institute of Cardiology and the Allied Hospital in Faisalabad (Punjab, Pakistan) between April and December 2015. The patients, aged 40 years and older, consist of 105 women and 194 men who have all previously experienced heart failure.
 
 This dataset includes 13 features, documenting clinical, physiological, and lifestyle details, and serves as the training data for predicting heart failure risks. Notably, the dataset exhibits an imbalance, with 203 patients surviving (death event = 0) and 96 patients deceased (death event = 1).
 Further details about this dataset can be found in the [original publication](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5)_ by the dataset curators.
@@ -56,12 +56,12 @@ The target variable, DEATH_EVENT, is binary, with 1 indicating deceased patients
 
 The data for this project is accessed through the following steps in our workspace:
 
-The data is uploaded to this [GitHub repository](https://raw.githubusercontent.com/robiulrafi/AZURE_ML_ND_PORTFOLIO/main/project_1/heart_failure_clinical_records_dataset.csv).
+The data is uploaded to this [GitHub repository](https://raw.githubusercontent.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/main/Optimizing an ML Pipeline in Azure/heart_failure_clinical_records_dataset.csv).
 
 The dataset is registered using either the AzureML SDK or AzureML Studio, utilizing a web URL or local files.
 
 For this particular project, the dataset is registered in our workspace using a web URL with Azure SDK. 
-![Image Alt Text](Artifacts_II/Data_Reg.PNG)
+![Image Alt Text](Artifacts/Data_Reg.PNG)
 
 Subsequently, the data is retrieved from the CSV file employing the TabularDatasetFactory Class.
 
@@ -154,12 +154,12 @@ run_algorithm': 'VotingEnsemble',
 
 2. Conduct feature selection or removal to eliminate collinear features or those deemed unimportant in making prediction decisions. Collinear features can introduce multicollinearity issues, while irrelevant features may add noise to the model or increase its complexity unnecessarily. By refining the feature set to include only the most informative variables, we can enhance the model's performance, interpretability, and generalization ability.
    
- ![Image Alt Text](Artifacts_II/run_details_automl.PNG)
- ![Image Alt Text](Artifacts_II/ModelautoMl_id_details.PNG)
- ![Image Alt Text](Artifacts_II/model_automl_accuaracy.PNG)
- ![Image Alt Text](Artifacts_II/best_run_details_automl_params.PNG)
- ![Image Alt Text](Artifacts_II/best_run_details.PNG)
-![Image Alt Text](Artifacts_II/Best_model_autoMl_ve.PNG)
+ ![Image Alt Text](Artifacts/run_details_automl.PNG)
+ ![Image Alt Text](Artifacts/ModelautoMl_id_details.PNG)
+ ![Image Alt Text](Artifacts/model_automl_accuaracy.PNG)
+ ![Image Alt Text](Artifacts/best_run_details_automl_params.PNG)
+ ![Image Alt Text](Artifacts/best_run_details.PNG)
+![Image Alt Text](Artifacts/Best_model_autoMl_ve.PNG)
  
 
 ## Hyperparameter Tuning
@@ -237,12 +237,12 @@ Maximum Iterations: 100
 
 3. Increase the maximum total runs to enable the exploration of a larger number of combinations of hyperparameters. While this may enhance model performance, it's essential to consider the potential impact on cost and training duration. Balancing the trade-off between computational resources and model performance is crucial in determining the optimal number of runs for hyperparameter tuning.
 
-![Image Alt Text](Artifacts_II/run_details_hyp.PNG)
-![Image Alt Text](Artifacts_II/run_details_hyp_II.PNG)
-![Image Alt Text](Artifacts_II/best_run_metrics_hyp.PNG)
-![Image Alt Text](Artifacts_II/best_run_details_hyp.PNG)
-![Image Alt Text](Artifacts_II/best_run_details_hyp_III.PNG)
-![Image Alt Text](Artifacts_II/Hyp_best_model.PNG)
+![Image Alt Text](Artifacts/run_details_hyp.PNG)
+![Image Alt Text](Artifacts/run_details_hyp_II.PNG)
+![Image Alt Text](Artifacts/best_run_metrics_hyp.PNG)
+![Image Alt Text](Artifacts/best_run_details_hyp.PNG)
+![Image Alt Text](Artifacts/best_run_details_hyp_III.PNG)
+![Image Alt Text](Artifacts/Hyp_best_model.PNG)
 
 ## Model Deployment
 
@@ -257,15 +257,15 @@ To deploy a model using Azure SDK, follow these steps:
 
 **Models After Registration**
 
-![Image Alt Text](Artifacts_II/models_reg.PNG)
+![Image Alt Text](Artifacts/models_reg.PNG)
 
 **Model After Deployment**
 
 Successful model deployment was achieved using ACI (Azure Container Instance) with Application Insights enabled.
 
-![Image Alt Text](Artifacts_II/Deploy_aml.PNG)
+![Image Alt Text](Artifacts/Deploy_aml.PNG)
 
-![Image Alt Text](Artifacts_II/app_insights_ture.PNG)
+![Image Alt Text](Artifacts/app_insights_ture.PNG)
 
 **Sample Data Consumption**
 
@@ -303,7 +303,7 @@ data = {"data":
       ]
     }
 ```
-![Image Alt Text](Artifacts_II/Result_endpoints.PNG)
+![Image Alt Text](Artifacts/Result_endpoints.PNG)
 
 ## Screen Recording
 
