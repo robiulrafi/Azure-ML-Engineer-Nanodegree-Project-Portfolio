@@ -1,3 +1,9 @@
-This repository contains the projects of the **AZURE MACHINE LEARNING NANODEGREE PORTFOLIO** by **UDACITY**.
+This repository here encompasses projects from the **MS-AZURE MACHINE LEARNING NANODEGREE PROGRAM** offered by UDACITY. 
 
-**project_1** folder contains the details of the ML model performance comparison of hyderdrive and AutoML configurations in AZURE environment.    
+
+**Project Deliverables Summary**
+
+In the Optimizing an ML Pipeline in Azure project, an ML pipeline is being created and optimized. A custom-coded model—a standard Scikit-learn Logistic Regression—is provided, with its hyperparameters being optimized using HyperDrive. Additionally, AutoML is being used to build and optimize a model on the same dataset, allowing for a comparison of the results of the two methods.
+
+
+    
