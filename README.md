@@ -13,7 +13,6 @@ The architecture diagram as demonstrated below provides a visual representation 
 
 ![Image Alt Text](Optimizing%20an%20ML%20Pipeline%20in%20Azure/Artifacts/Pipeline_Sklearn.PNG)
 
-* Bullet list
 * The Bank Marketing dataset from [UCI ML](https://archive.ics.uci.edu/dataset/222/bank+marketing) Repository was used to train the two models.
 * Project code and artifact repository: click [here](https://github.com/robiulrafi/Azure-ML-Engineer-Nanodegree-Project-Portfolio/tree/main/Optimizing%20an%20ML%20Pipeline%20in%20Azure)
 * Tool: Azure ML Studio, Azure Python SDK, Jupyter Notebook
