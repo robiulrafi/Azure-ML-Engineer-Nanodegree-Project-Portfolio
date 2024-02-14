@@ -1,5 +1,5 @@
 This repository here encompasses projects from the **MS-AZURE MACHINE LEARNING NANODEGREE PROGRAM** offered by UDACITY. 
-
+![Image Alt Text](Complete_Cert.png)
 
 # Summary of Project Deliverables
 
